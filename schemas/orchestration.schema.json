@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CDCO Orchestration",
+  "type": "object",
+  "required": [
+    "objective",
+    "dimensions",
+    "bridges",
+    "architectures",
+    "assumptions"
+  ],
+  "properties": {
+    "objective": {
+      "type": "string"
+    },
+    "condition_space": {
+      "type": "object"
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "local_objective",
+          "actions"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "local_objective": {
+            "type": "string"
+          },
+          "controls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "does_not_control": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "actions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "local_purpose",
+                "state_changes"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "local_purpose": {
+                  "type": "string"
+                },
+                "state_changes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "bridges": {
+      "type": "array",
+      "items": {
+        "$ref": "bridge.schema.json"
+      }
+    },
+    "architectures": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "pattern",
+          "bridge_ids",
+          "tradeoffs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "pattern": {
+            "type": "string"
+          },
+          "bridge_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "causal_chains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "load_bearing_bridges": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tradeoffs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "stress_test": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "near_term_moves": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

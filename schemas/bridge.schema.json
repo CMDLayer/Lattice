@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CDCO Bridge",
+  "type": "object",
+  "required": [
+    "id",
+    "source_dimension_id",
+    "source_action_id",
+    "state_change",
+    "target_dimension_id",
+    "mechanism",
+    "effect_type",
+    "counterfactual",
+    "strength",
+    "confidence",
+    "load_bearing"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_dimension_id": {
+      "type": "string"
+    },
+    "source_action_id": {
+      "type": "string"
+    },
+    "state_change": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_dimension_id": {
+      "type": "string"
+    },
+    "target_plan_element": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mechanism": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effect_type": {
+      "type": "string",
+      "enum": [
+        "capability",
+        "information",
+        "access",
+        "resource",
+        "incentive",
+        "constraint",
+        "timing",
+        "evidence",
+        "attention",
+        "risk",
+        "optionality",
+        "demand",
+        "position",
+        "permission",
+        "coordination",
+        "cost",
+        "quality",
+        "reliability"
+      ]
+    },
+    "downstream_affordance": {
+      "type": "string"
+    },
+    "counterfactual": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timing": {
+      "type": "object",
+      "properties": {
+        "available_from": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "useful_until": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "usable_after_stage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Stage identifier after which the source state is expected to be usable by the consuming dimension."
+        },
+        "expires_before_stage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Stage identifier before which the source state is expected to cease being usable by the consuming dimension."
+        }
+      },
+      "additionalProperties": false,
+      "description": "Expected absolute and/or stage-relative usability window for the source state relative to the consuming dimension. If no window is supplied, the host model should describe timing as unknown. An optional implementation may independently derive timing status; this schema does not prescribe engine behavior."
+    },
+    "strength": {
+      "type": "string",
+      "enum": [
+        "strong",
+        "moderate",
+        "weak",
+        "speculative"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "load_bearing": {
+      "type": "boolean",
+      "description": "MODEL CLAIM ONLY. This records the host model's hypothesis for a named architecture. Test it by removing the bridge in the conceptual plan and inspecting whether declared downstream objectives remain reachable. The skill does not compute or verify structural status. An optional host implementation may analyze the graph independently; that result is separate from this claim."
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "agency_note": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "keep",
+        "optional",
+        "downgrade",
+        "reject"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

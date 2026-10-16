@@ -1,0 +1,91 @@
+Lattice Proprietary Attribution License 1.0
+Copyright (c) 2026 CMDLayer
+
+This license applies to the Lattice materials distributed with this file that
+are identified as owned by CMDLayer, including the Lattice skill, its
+documentation, templates, examples, schemas, evaluation materials, and
+publication materials (the “Work”). It does not apply to material expressly
+identified as third-party material or governed by a separate license. The
+reference JPGs discussed in the publication materials are not included in the
+Work.
+
+1. Permission
+
+Subject to the conditions below, CMDLayer grants you a worldwide,
+non-exclusive, royalty-free license to use, reproduce, modify, and distribute
+the Work and modified versions of the Work, for personal or commercial
+purposes. You may distribute the Work on its own or as part of a larger
+product or service. You may charge for a larger product or service that
+includes or uses the Work.
+
+This permission is limited to rights CMDLayer owns or is authorized to
+license. It grants no rights in third-party material, trademarks, patents, or
+other rights not expressly granted here.
+
+2. Conditions for copies and modified versions
+
+When you distribute the Work or a modified version of it, you must:
+
+* include a copy of this license with the distributed Work;
+* retain existing copyright and license notices in the Work; and
+* give reasonable credit identifying the original Work as “Lattice by
+  CMDLayer” and, where practical, provide a link to the source repository at
+  https://github.com/CMDLayer/Lattice.
+
+For a modified version, clearly identify that you changed the Work, in a
+reasonable place such as its documentation, about or credits page, or source
+headers. Do not represent the original Work, or the portions created by
+CMDLayer, as your own original creation. You may identify and claim authorship
+of your own contributions, provided you distinguish them from the original
+Work. Attribution does not imply that CMDLayer endorses you, your changes, or
+your product.
+
+These conditions apply when you distribute copies or modified versions of the
+Work. They do not require branding every product, service, or output merely
+because you used Lattice to create it. In particular, plans, analyses, and
+other outputs generated through use of Lattice are not subject to attribution
+under this license unless they reproduce a substantial portion of protected
+expression from the Work.
+
+3. No additional restrictions; no copyleft
+
+You may choose the terms for your own contributions, but you may not remove
+the conditions in this license from the Work or impose additional restrictions
+on recipients' exercise of the permissions granted here for the Work. This
+license does not require you to publish source code, disclose modifications,
+or license your separate contributions under this license.
+
+4. Rights not granted
+
+CMDLayer retains ownership of the Work and all rights not expressly granted
+above. “Lattice,” “CMDLayer,” and related names or marks may be used only as
+needed for the attribution required by this license; no trademark or
+endorsement rights are granted. This license covers only rights in material
+that can be licensed by CMDLayer. It does not give anyone exclusive rights in
+an abstract idea, method, process, or principle, and it does not claim
+copyright protection for material that is not copyrightable.
+
+5. Termination
+
+The permissions granted by this license terminate if you fail to comply with
+its conditions. They are reinstated if you cure the violation within 30 days
+after you become aware of it. Termination does not affect the permissions of
+recipients who are complying with this license.
+
+6. Disclaimer and limitation
+
+THE WORK IS PROVIDED “AS IS,” WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, TO THE EXTENT PERMITTED BY
+LAW. TO THE EXTENT PERMITTED BY LAW, CMDLAYER WILL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, OR FOR
+LOST PROFITS, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO THE WORK OR THIS
+LICENSE. NOTHING IN THIS LICENSE EXCLUDES OR LIMITS LIABILITY THAT CANNOT
+LAWFULLY BE EXCLUDED OR LIMITED.
+
+7. Interpretation
+
+This license states the permissions and conditions for the Work. If a
+provision is unenforceable, it will be limited only to the extent necessary
+and the remaining provisions will continue to apply. No waiver is effective
+unless made in writing by CMDLayer.

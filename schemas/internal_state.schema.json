@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CDCO Internal Planning State",
+  "type": "object",
+  "properties": {
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "state_inventory": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "candidate_bridges": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "validated_bridges": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "rejected_bridges": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "architectures": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

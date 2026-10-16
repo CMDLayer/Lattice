@@ -1,0 +1,182 @@
+{
+  "package": "lattice",
+  "version": "0.2",
+  "file_count": 35,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1303,
+      "sha256": "d80cca4ecd1442af4cf54f78e599241dc12c4d04fd18bc293dbf6c34226cc555"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 4556,
+      "sha256": "8145a70953141cb3b6616bb0ad118d04b21c5c2f321ff318185ace2fcb01f50c"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 898,
+      "sha256": "ac0691145e2a1a0cb6b461bff3bf8863fee64d166676dae87282138d0eb78864"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5035,
+      "sha256": "4a4d79382b83adf69f045b7498fd4dcb36d5dc8477e8f71301d1140c69a7a665"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 11738,
+      "sha256": "d61b42ce03383c3671da45a4d9a137b07999f935156cde391857bcac1b482e0e"
+    },
+    {
+      "path": "anti_patterns.md",
+      "bytes": 5538,
+      "sha256": "4469fb5ef99d38782128197619f57f938780553eb78f6b010fb7711bb4b11dfc"
+    },
+    {
+      "path": "evals/adversarial_tests.md",
+      "bytes": 1950,
+      "sha256": "b57eff2cb0691396f2d69a64125f9c44a440ad6b34882641e0ccf82d3d1b2432"
+    },
+    {
+      "path": "evals/cases.jsonl",
+      "bytes": 5684,
+      "sha256": "f53463d40a86308c072e5e08129308c87f3d6e137a099ecaffc29600bbd939d3"
+    },
+    {
+      "path": "evals/evaluator_prompt.md",
+      "bytes": 1262,
+      "sha256": "d40d198cf5539ab4960d444ce5365509e2210228c6b189f975bc13c5850cc5b2"
+    },
+    {
+      "path": "evals/expected_characteristics.md",
+      "bytes": 1471,
+      "sha256": "65f16f331584ecd5be8a086296d6c7182e216e3f68239c5fd0ccea922e12454b"
+    },
+    {
+      "path": "evals/rubric.md",
+      "bytes": 3146,
+      "sha256": "05e9ca40c3b96ff9ee107d87300985b3d77fd32496984602672a544fa575e498"
+    },
+    {
+      "path": "examples/01_product_financing_partnerships.md",
+      "bytes": 4938,
+      "sha256": "189399efa709e33fc92e6d94dcdda9ee9885254d2730cad748574864b011c1d7"
+    },
+    {
+      "path": "examples/02_hiring_operations_sales.md",
+      "bytes": 2513,
+      "sha256": "e9eb05861f18944fcf0c70bc36ac4ce7acf501d241b7a390b6882b212024c973"
+    },
+    {
+      "path": "examples/03_research_policy_implementation.md",
+      "bytes": 1971,
+      "sha256": "fea431d5e5ec55bc17e55fa77b8f7dd16131d2357855e04321dea6467f73730b"
+    },
+    {
+      "path": "examples/04_personal_project_portfolio.md",
+      "bytes": 1566,
+      "sha256": "d51e369e2bfc4b4a7a4095cb8ae94f26206c2501d2d8303ddd3f66c3163edcaa"
+    },
+    {
+      "path": "internal_representations.md",
+      "bytes": 4607,
+      "sha256": "117e5c9a68c33658d20f89f5e90dc7762d159adfedf1a95c4af8a997d7890073"
+    },
+    {
+      "path": "ontology.md",
+      "bytes": 6772,
+      "sha256": "ed55acd9b85904ad636f168e92d2b073bfef22fff7aaa1609e4f34f24de8c74d"
+    },
+    {
+      "path": "output_schema.md",
+      "bytes": 1928,
+      "sha256": "50f8d8c49617cf3c0f3e62658730db51751331d4ed2670e0bc038c37ff2b3163"
+    },
+    {
+      "path": "reasoning_protocol.md",
+      "bytes": 8083,
+      "sha256": "5866de4a1d3f66aa344a944775b120155e5ac963ad4d36aa0cfda21717235b65"
+    },
+    {
+      "path": "reference_curriculum.md",
+      "bytes": 5792,
+      "sha256": "c23a924fe9bbda55ffb68f53d167796a6f0c1fce00d18bb1fcb00cc43133bef5"
+    },
+    {
+      "path": "references/01_systems_thinking.md",
+      "bytes": 1550,
+      "sha256": "a02af93238105d61dd2f0f168c44a70434a0d906a4445dfaa85a003bac18c55b"
+    },
+    {
+      "path": "references/02_causal_reasoning.md",
+      "bytes": 1845,
+      "sha256": "50789989b16daddfe71ab9b6d98283ae816331acb127e7063b42f87c3a00ce72"
+    },
+    {
+      "path": "references/03_multilayer_networks.md",
+      "bytes": 1400,
+      "sha256": "a0f519bbc99040de541a159126baf5ef91b34f6921e4745d57add30ad8c30bd3"
+    },
+    {
+      "path": "references/04_planning_and_abstraction.md",
+      "bytes": 1152,
+      "sha256": "508010cddc3f3d7ca6ae440f2a37462da10e72cdee8a6784da7c02308650f6da"
+    },
+    {
+      "path": "references/05_uncertainty_optionality.md",
+      "bytes": 1307,
+      "sha256": "17503b3698835c0602e553e6eee51b64cff370f4a98adb49a08572cb2a8a5b49"
+    },
+    {
+      "path": "references/06_distributed_systems_analogy.md",
+      "bytes": 1275,
+      "sha256": "58916d0ff79f7da259cdb6cc506936a5d0636a86358e2b611a4276d98e2be265"
+    },
+    {
+      "path": "references/07_resilience_and_failure.md",
+      "bytes": 1119,
+      "sha256": "1a944960ce7e4c0e54f29d06bb66f897c993bbdb37a2d1e4ffe5f38eb399aaf1"
+    },
+    {
+      "path": "references/08_strategy_and_indirect_leverage.md",
+      "bytes": 1312,
+      "sha256": "99a255540b6fd1d9b9ca4cf143ac8802cb603dc0decc372166db8c9961e2fa5d"
+    },
+    {
+      "path": "schemas/bridge.schema.json",
+      "bytes": 3720,
+      "sha256": "dc73f7059d8cd825832a743686c467d973242f0f39c2118d6892778d69c18190"
+    },
+    {
+      "path": "schemas/internal_state.schema.json",
+      "bytes": 1276,
+      "sha256": "e17cebe0454ff90433f52a6c9a0ca10fa002b475181da8718b4c6d740000a4a4"
+    },
+    {
+      "path": "schemas/orchestration.schema.json",
+      "bytes": 3339,
+      "sha256": "5dbb8b18908aef7f5574e540f6e7111acee64fb65a764b40ebe60a1c4d397ab6"
+    },
+    {
+      "path": "templates/planning_worksheet.md",
+      "bytes": 1833,
+      "sha256": "c61c954aed8ebc46972ca0361aced054b8c7ab9f31631d8e1dcf085abd7dbbe8"
+    },
+    {
+      "path": "templates/system_prompt_addendum.md",
+      "bytes": 1887,
+      "sha256": "0c98b45cac8cd9e5b12345ecb935fe37b4de4ad76428a4e0382a7add3cb3fcb0"
+    },
+    {
+      "path": "theory_and_doctrine.md",
+      "bytes": 7248,
+      "sha256": "8add2b87c32b94d2fef9c83c0732aa53282c54c8c2710a5243860b5259158e51"
+    },
+    {
+      "path": "training_cases.md",
+      "bytes": 5357,
+      "sha256": "ff5b12d66363c5ff6299991621e1a88975d9fe87bafe864ed9352f2524910308"
+    }
+  ]
+}
