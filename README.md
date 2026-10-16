@@ -89,3 +89,5 @@ Dimension C:  C1 → C2 → C3
 The important object is not the vertical line itself. It is the claim that **condition X is a genuine consequence of A3, and condition X materially changes what is possible, likely, timely, affordable, knowable, or advantageous on Dimension B.**
 
 That claim must survive scrutiny.
+
+Contact=admin@cmdlayer.dev
